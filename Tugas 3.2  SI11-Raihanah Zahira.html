@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+</head>
+    <meta charset="UTF-8">
+    <title>form pemesaanan</title>
+<body style="max-width:1000px;border: 1px solid rgb(196, 196, 196);">
+    <div style="background-color: rgb(196, 196, 196);"> 
+        <nav style="display: flex; list-style-type: none;">
+            <table border="0" width="100%">
+                    <tr> 
+                        <td> Home |</td>
+                        <td>Generate Link |</td>
+                        <td>Transaction History |</td>
+                        <td>Policy |</td>
+                        <td>Log out |</td>
+                    </tr>
+            </table>
+        </nav>
+    </div>
+        <table border="0" width="100%" >
+            <tr>
+                <td width="25%"><img src="Image/sepatu.jpg" width="150" height="160"></td>
+                <td width="20%">title here </td>
+                <td>:</td>
+                <td><input type="text" name="title" id="title">
+                    <label for="title"></label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Description</td>
+                <td>:</td>
+                <td> <textarea name="Description" cols="40" rows="3"></textarea> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Account Number</td>
+                <td>:</td>
+                <td><input type="text" name="number" id="number">
+                    <label for="number"></label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Bank</td>
+                <td>:</td>
+                <td><input type="text" list="bank" name="bank">
+                    <datalist id="bank">
+                        <option value="BNI"></option>
+                        <option value="Mandiri"></option>
+                        <option value="BCA"></option>
+                        <option value="BSI"></option>
+                    </datalist> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text" name="accountholder" id="accountholder">
+                    <label for="accountholder"></label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Transaction</td>
+                <td>:</td>
+                <td><select name="transaction">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select></td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>*if the transaction is for 3 person, choose 3 from the drop-down list</td>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><form action="">
+                    <input type="checkbox" id="phone" name="phone" value="phone">
+                    <label for="phone">Send to mobile phone</label><br>
+                    <input type="checkbox" id="email" name="email" value="email">
+                    <label for="email">Send to email</label><br>
+                </form></td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td><input type="text" name="mobilephone" id="mobilephone">
+                    <label for="mobilephone"></label></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td><input type="text" name="mobilephone" id="mobilephone">
+                    <label for="mobilephone"></label></td>
+            </tr>  
+        </table>
+        <p ALIGN="CENTER">
+            <button style="background-color: rgb(57, 240, 96); border-width: 4px; width: 100%; height: 30px; border-color: rgb(14, 158, 74);">Checkout</button>
+        </p>
+    </body>
+</html>
