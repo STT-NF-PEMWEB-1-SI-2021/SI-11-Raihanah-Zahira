@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raihanah zahira-praktikum8</title>
+       <script>
+             function hitung(){
+                const nilairupiah = 14650;
+                let dollar = document.getElementById("dollar").value;
+                console.log("nilai dollar : " + dollar);
+                let rupiah = nilairupiah * dollar;
+                console.log("rupiah :" + rupiah);
+                let area_hasil = document.getElementById("hasil");
+                area_hasil.innerHTML = "rupiah :" + rupiah;
+             }
+       </script>
+    </head>
+    <body>
+        <h3>Menghitung Kurs Rupiah</h3>
+        Masukkan Dollar : 
+        <input type="number" value="" size="10" id="dollar">
+        <br>
+        <button onclick="hitung()">Hitung</button>
+        <br/>Hasil : <span id="hasil"></span>
+    </body>
+</html>
